@@ -42,7 +42,7 @@ class SensorApp(QWidget):
                 category_group_box.setStyleSheet(f'color: {white_color.name()}')
                 font = category_group_box.font()
                 font.setBold(True)
-                font.setPointSize(font.pointSize() + 4)
+                font.setPointSize(font.pointSize() + 6)
                 category_group_box.setFont(font)
                 category_layout = QVBoxLayout(category_group_box)
 
@@ -54,7 +54,7 @@ class SensorApp(QWidget):
                     # Set the font style
                     font = label.font()
                     font.setBold(True)
-                    font.setPointSize(font.pointSize() + 2)
+                    font.setPointSize(font.pointSize() + 4)
                     label.setFont(font)
 
                     # Set the text color to white

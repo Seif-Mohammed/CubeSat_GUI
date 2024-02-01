@@ -8,7 +8,7 @@ class SensorApp(QWidget):
         self.setWindowTitle("Sensor Data GUI")
         self.setGeometry(100, 100, 700, 300)
         background_label = QLabel(self)
-        pixmap = QPixmap("background.jpg")  # Replace with the path to your image
+        pixmap = QPixmap("background.jpg") 
         background_label.setPixmap(pixmap)
         background_label.setGeometry(0, 0, 1920, 1080)  # Set label size to cover the entire window
 
